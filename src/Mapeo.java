@@ -1,5 +1,5 @@
 /**
- * @author MECHES
+ * @author María Mercedes Retolaza 
  *
  * @param <K> Generico que representa el tipo de key del mapeo.
  * @param <V> Generico que representa el tipo de value del mapeo.

@@ -5,17 +5,17 @@ import java.util.Hashtable;
  */
 public class HashTableSet implements WordSet {
 
-    private Hashtable base = new Hashtable();
+	private Hashtable base = new Hashtable();
 
-    @Override
-    public void add(Word wordObject) {
-        if(get(wordObject)==null){
-            base.put(wordObject.getWord().hashCode(), wordObject);
-        }
-    }
+	@Override
+	public void add(Word wordObject) {
+		if(get(wordObject)==null){
+			base.put(wordObject.getWord().hashCode(), wordObject);
+		}
+	}
 
-    @Override
-    public Word get(Word word) {
-        return (Word) base.get(word.getWord().hashCode());
-    }
+	@Override
+	public Word get(Word word) {
+		return (Word) base.get(word.getWord().hashCode());
+	}
 }

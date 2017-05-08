@@ -1,4 +1,8 @@
 
+/**
+ * @author María Mercedes Retolaza
+ *
+ */
 public interface MapeoFactory {
 	/**
 	 * @param tipoMapeo	El tipo de mapeo requerido.

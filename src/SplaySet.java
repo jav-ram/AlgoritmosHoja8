@@ -1,11 +1,11 @@
 
 public class SplaySet implements WordSet{
 	private SplayBST<Word> base;
-	
+
 	public SplaySet(){
 		base = new SplayBST<Word>();
 	}
-	
+
 
 	@Override
 	public void add(Word wordObject) {
@@ -18,6 +18,6 @@ public class SplaySet implements WordSet{
 		// TODO Auto-generated method stub
 		return base.find(word);
 	}
-	
+
 
 }
