@@ -25,7 +25,7 @@ class WordSetFactory {
 	    	return new HashTableSet(); //HashTable
 	    }
 	    case 5:{
-	    	return new SplaySet(); //TreeMap
+	    	return new TreeMapSet(); //TreeMap
 	    }
 	    }
 			

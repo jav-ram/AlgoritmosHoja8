@@ -1,6 +1,6 @@
 
 /**
- * @author María Mercedes Retolaza
+ * @author Maria Mercedes Retolaza
  *
  */
 public interface MapeoFactory {
