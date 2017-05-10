@@ -9,7 +9,9 @@ public class HashTableSet implements WordSet {
 
     @Override
     public void add(Word wordObject) {
-        base.put(wordObject.getWord().hashCode(), wordObject);
+        if(get(wordObject)==null){
+            base.put(wordObject.getWord().hashCode(), wordObject);
+        }
     }
 
     @Override
