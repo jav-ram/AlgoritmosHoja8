@@ -22,7 +22,7 @@ class WordSetFactory {
 	    	return new SplaySet(); //Splay
 	    }
 	    case 4:{
-	    	return new SplaySet(); //HashTable
+	    	return new HashTableSet(); //HashTable
 	    }
 	    case 5:{
 	    	return new SplaySet(); //TreeMap
