@@ -2,23 +2,27 @@ import java.util.TreeMap;
 
 public class RnB implements WordSet {
 	
-	private TreeMap<String,Word> base;
+	private RedBlackTree base;
 
 	public RnB(){
 		base = null;
-		base = new TreeMap<String,Word>();
+		base = new RedBlackTree();;
+		
 	}
-	
+
 	@Override
 	public void add(Word wordObject) {
 		// TODO Auto-generated method stub
-		base.put(wordObject.getWord(),wordObject);
+		//wordObject.setWord(Long.toHexString(Double.doubleToLongBits(Math.random())));
+		
+		base.insert(wordObject);
 	}
 
 	@Override
 	public Word get(Word word) {
 		// TODO Auto-generated method stub
-		return base.get(word);
+		
+		return (Word) base.find(word);
 	}
 
 }

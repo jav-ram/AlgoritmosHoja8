@@ -16,7 +16,7 @@ class WordSetFactory {
 	    	return new SimpleSet();
 	    }
 	    case 2:{
-	    	return new SimpleSet(); //RnB
+	    	return new RnB(); //RnB
 	    }
 	    case 3:{
 	    	return new SplaySet(); //Splay
