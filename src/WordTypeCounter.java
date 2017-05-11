@@ -164,9 +164,9 @@ class WordTypeCounter {
 									
 						System.out.println("Por favor ingrese unicamente Y o N");
 						System.out.println("Desea probar otra implementacion? (Y/N)");
-						System.out.println("");
 						respuesta = teclado.nextLine();
-						
+						respuesta = respuesta.toUpperCase();
+						System.out.println("");
 					}
 					
 					if (respuesta.equals("Y")) {
